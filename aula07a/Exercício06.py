@@ -1,11 +1,11 @@
 import math
 
-n1 = int(input('Digite um número: '))
+n = int(input('Digite um número: '))
 
-dobro = n1 * 2
-triplo = n1 * 3
-raizQuadrada = math.sqrt(n1)
+d = n * 2
+t = n * 3
+r = math.sqrt(n)
 
-print(f'O dobro de {n1} vale {dobro}.\nO triplo de {n1} vale {triplo}.')
-print(f'A raiz quadrada de {n1} é igual a {raizQuadrada:.2f}.')
+print(f'O dobro de {n} vale {d}.\nO triplo de {n} vale {t}.')
+print(f'A raiz quadrada de {n} é igual a {r:.2f}')
 
