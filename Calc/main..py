@@ -1,5 +1,5 @@
-porcento = float(input('Digite o porcento: '))
-valor = int(input('Digite o valor: '))
+porcento = float(input('Digite o número de percento: '))
+valor = int(input('Digite o valor a ser descontado: '))
 
 result = (valor /100) * porcento
 
