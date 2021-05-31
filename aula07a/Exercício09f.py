@@ -1,5 +1,8 @@
-real = float(input('Quanto de dinheiro você tem ? '))
+# Programa que ler quanto de dinheiro uma pessoa tem na carteira
+# e mostra quantos Dólares ela pode comprar
 
-dolar = real /5
+real = float(input('Quanto de dinheiro você tem na carteira? R$'))
 
-print(f'Com R${real} reais você pode comprar USS{dolar} dolares!')
+dolar = real /3.27
+
+print(f'Com R${real} você pode comprar US${dolar}')
