@@ -1,7 +1,9 @@
-metros = int(input('Qual o metro ? '))
+# Programa que ler um valor em metros e o exibe convertido em centímetro e
+# milímetros.
 
-centimentros = metros * 100
-milimetros = metros * 1000
+medida = float(input('Uma distância em metros: '))
 
-print(f'{metros} Metros = {centimentros} Centímetros ', end=' = ')
-print(f'{milimetros} milímetros ')
+cm = medida * 100
+mm = medida * 1000
+
+print(f'A medida de {medida}m corresponde a {cm:.0f}cm e {mm:.0f}mm')
